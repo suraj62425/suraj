@@ -1,0 +1,177 @@
+/* ========== RESET & BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  line-height: 1.6;
+}
+
+/* ========== NAVIGATION BAR ========== */
+nav {
+  background-color: #1e293b;
+  padding: 10px 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #64748b;
+  color: #fff;
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #1e3a8a, #9333ea);
+  color: #fff;
+  padding: 60px 20px 40px;
+}
+
+.hero .logo img {
+  width: 100px;
+  height: 120px;
+  border-radius: 12px;
+  border: 3px solid #f1f5f9;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.hero .logo img:hover {
+  transform: scale(1.05);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #e0e7ff;
+}
+
+/* ========== SECTION BASE ========== */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+section h1, section h2 {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+section p {
+  color: #cbd5e1;
+}
+
+/* ========== ABOUT SECTION ========== */
+#about p {
+  font-size: 1.1rem;
+}
+
+/* ========== EDUCATION SECTION ========== */
+#education div {
+  background-color: #1e293b;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-left: 5px solid #3b82f6;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+#education h3 {
+  color: #facc15;
+}
+
+/* ========== SKILLS SECTION ========== */
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#skills li {
+  background-color: #334155;
+  color: #f8fafc;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+#skills li:hover {
+  background-color: #0ea5e9;
+}
+
+/* ========== PROJECTS SECTION ========== */
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card .card {
+  background-color: #1e293b;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  border-left: 4px solid #8b5cf6;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.project-card .card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: #facc15;
+}
+
+/* ========== CONTACT SECTION ========== */
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #1e293b;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.95rem;
+}
