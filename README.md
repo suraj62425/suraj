@@ -10,8 +10,8 @@ This is my personal portfolio website built to showcase my projects, technical s
 - Contact information with email and social links
 
 ## 🛠️ Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## 🌐 Live Demo
