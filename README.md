@@ -15,7 +15,7 @@ This is my personal portfolio website built to showcase my projects, technical s
 - JavaScript
 
 ## 🌐 Live Demo
-[Click here to view my portfolio](https://suraj.github.io/)
+[Click here to view my portfolio](https://suraj62425.github.io/suraj/)
 
 ## 📄 License
 This project is open-source under the [Apache License 2.0](LICENSE).
